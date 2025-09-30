@@ -1,13 +1,7 @@
-﻿// Importa tipos relacionados a HTTP (StatusCode, HttpContext, etc.)
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
-
-// Importa tipos MVC (ControllerBase, atributos [ApiController], [Route], resultados de ação)
+﻿// Importa tipos MVC (ControllerBase, atributos [ApiController], [Route], resultados de ação)
 using Microsoft.AspNetCore.Mvc;
 // Importa a classe Produto (o nosso modelo de dados)
 using MinhaAPI.Model;
-using System;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 // Define o namespace (organização lógica de classes no projeto)
 namespace MinhaAPI.Controllers
